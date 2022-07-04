@@ -1,0 +1,99 @@
+
+body{
+    position: relative;
+}
+.tb_margin{
+    margin: 130px 0px;
+}
+.tb_padding{
+    padding: 130px 0px;
+}
+.active{
+    color: #28c196 !important;
+}
+.main_color{
+    color:#28c196 !important;
+}
+.main_color_bg{
+    background:#28c196 !important;
+}
+.mb_100{
+    margin-bottom: 100px;
+}
+
+.main_menu{
+    background-image: url("../images/header_bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.nav-item{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.35);
+}
+.menu_icon{
+    background: #28c196;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.menu_title{
+    font-size: 68px;
+}
+.menu_body{
+    font-size: 20px;
+}
+.km_button:hover{
+    background: white !important;
+    color: black !important;
+}
+.vm_button:hover{
+    background: black !important;
+}
+.menu_btn{
+    width: 23%;
+}
+.menu_btn:hover{
+    background: black !important;
+    color: white !important;
+}
+.orw_img:hover .overlay_img{
+    opacity: 1;
+}
+.overlay_img{
+    position: absolute;
+    top: 4%;
+    bottom: 4%;
+    left: 3%;
+    width: 94%;
+    height: 92%;
+    background: #232;
+    transition: .5s ease;
+    opacity: 0;
+}
+.ttm .card img{
+    width: 140px;
+    height: 140px;
+    margin: 20px auto;
+}
+.gitwut{
+    background-image: url("../images/gitwut.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    height: 180px;
+}
+a{
+    animation-duration: 4s;
+    /*transition: .7s ease;*/
+}
