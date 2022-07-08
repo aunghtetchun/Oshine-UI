@@ -31,6 +31,9 @@ body{
     font-weight: bold;
     padding: 10px 20px;
 }
+.navbar{
+    background:#be8d7;
+}
 
 .overlay{
     position: absolute;
